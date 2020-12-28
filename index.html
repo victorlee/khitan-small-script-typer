@@ -1,4 +1,5 @@
 <title>Khitan small script typer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 @import url(https://victorlee.github.io/fonts/stylesheet.css);
 .body, textarea {
@@ -13,12 +14,12 @@ width: 100%;
 }
 @media (min-width: 1200px) {
 .table {
-  width: 70%;
-  float: left;
+  width: 68%;
+  float: right;
 }
 .side {
-  text-align: left;
-  width: 25%;
+  text-align: center;
+  width: 30%;
   float: left;
 }
 }
@@ -35,6 +36,11 @@ overflow-x:auto;
  font-weight: bold; font-family: Arial; text-align: center; font-size: 1.5rem;
 }
 </style>
+<div class="side">
+  <h1 style="font-family: Arial; text-align: center; font-size: 2.4rem;">Khitan small script typer</h1><hr>
+<textarea row="5" id="output"></textarea>
+<a href="https://www.unicode.org/charts/PDF/U18B00.pdf" target="_blank">more info</a>
+</div>
 <div class="table">
 <table>
 <tr class="small">
@@ -586,11 +592,6 @@ overflow-x:auto;
 <td>𘳕</td>
 <td class="small">D</td></tr>
 </table>
-</div>
-<div class="side">
-  <h1 style="font-family: Arial; text-align: center; font-size: 2.4rem;">Khitan small script typer</h1><hr>
-<textarea row="5" id="output"></textarea>
-<a href="https://www.unicode.org/charts/PDF/U18B00.pdf" target="_blank">more info</a>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
